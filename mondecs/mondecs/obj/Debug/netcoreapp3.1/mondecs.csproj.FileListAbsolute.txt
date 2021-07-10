@@ -1,0 +1,13 @@
+C:\Users\akil\Documents\GitHub\gd-monde\mondecs\mondecs\bin\Debug\netcoreapp3.1\mondecs.exe
+C:\Users\akil\Documents\GitHub\gd-monde\mondecs\mondecs\bin\Debug\netcoreapp3.1\mondecs.deps.json
+C:\Users\akil\Documents\GitHub\gd-monde\mondecs\mondecs\bin\Debug\netcoreapp3.1\mondecs.runtimeconfig.json
+C:\Users\akil\Documents\GitHub\gd-monde\mondecs\mondecs\bin\Debug\netcoreapp3.1\mondecs.runtimeconfig.dev.json
+C:\Users\akil\Documents\GitHub\gd-monde\mondecs\mondecs\bin\Debug\netcoreapp3.1\mondecs.dll
+C:\Users\akil\Documents\GitHub\gd-monde\mondecs\mondecs\bin\Debug\netcoreapp3.1\mondecs.pdb
+C:\Users\akil\Documents\GitHub\gd-monde\mondecs\mondecs\obj\Debug\netcoreapp3.1\mondecs.csproj.AssemblyReference.cache
+C:\Users\akil\Documents\GitHub\gd-monde\mondecs\mondecs\obj\Debug\netcoreapp3.1\mondecs.AssemblyInfoInputs.cache
+C:\Users\akil\Documents\GitHub\gd-monde\mondecs\mondecs\obj\Debug\netcoreapp3.1\mondecs.AssemblyInfo.cs
+C:\Users\akil\Documents\GitHub\gd-monde\mondecs\mondecs\obj\Debug\netcoreapp3.1\mondecs.csproj.CoreCompileInputs.cache
+C:\Users\akil\Documents\GitHub\gd-monde\mondecs\mondecs\obj\Debug\netcoreapp3.1\mondecs.dll
+C:\Users\akil\Documents\GitHub\gd-monde\mondecs\mondecs\obj\Debug\netcoreapp3.1\mondecs.pdb
+C:\Users\akil\Documents\GitHub\gd-monde\mondecs\mondecs\obj\Debug\netcoreapp3.1\mondecs.genruntimeconfig.cache
