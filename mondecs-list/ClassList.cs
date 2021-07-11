@@ -110,5 +110,117 @@ public class SimpleCalculator
 	}
 }
 
+public class Madlib
+{
+	public Madlib()
+	{
+		string color, pluralNoun, celebrity;
+
+		Console.Write("Enter a color: ");
+		color = Console.ReadLine();
+
+		Console.Write("Enter a plural noun: ");
+		pluralNoun = Console.ReadLine();
+
+		Console.Write("Enter a celebrity  name: ");
+		celebrity = Console.ReadLine();
+
+		Console.WriteLine("Roses are " + color);
+		Console.WriteLine(pluralNoun + " are blue");
+		Console.WriteLine("I love " + celebrity);
+
+		Console.ReadLine();
+
+	}
+}
+
+public class Array
+{
+	public Array()
+	{
+		// Integer array
+
+		int[] luckyNumbers = { 12, 15, 26, 358, 555 };
+		Console.WriteLine(luckyNumbers[3]);
+
+		// String array : method 1
+
+		string[] euroSemi = { "England", "Italia", "Denmark", "Belgium" };
+		Console.WriteLine(euroSemi[0]);
+
+		// String array : method 2 // define string, and number of values it can accomodate
+
+		string[] euroFinal = new string[2];
+		euroFinal[0] = "England";
+		euroFinal[1] = "Italia";
+		Console.WriteLine(euroFinal[1]);
+
+
+		Console.ReadLine();
+
+
+	}
+}
+
+public class MethodsCS
+{
+	public MethodsCS()
+	{
+
+		static void Main(string[] args)
+		{
+
+			SayHi();
+
+			SayThings("Akhil", 28);
+			SayThings("Oliver", 35);
+
+			Console.ReadLine();
+
+		}
+
+		// Simple method
+		static void SayHi()
+		{
+			Console.WriteLine("Hello, there");
+		}
+
+		// Method passing parameters
+
+		static void SayThings(string name, int age)
+		{
+			Console.WriteLine("Hello " + name + " you are " + age + "!!");
+		}
+
+
+	}
+}
+
+public class ReturnMethod
+{
+	public ReturnMethod()
+	{
+
+		static void Main(String[] args)
+		{
+			CubeNum(25);
+
+			Console.ReadLine();
+		}
+
+		// Return statement - an Integer
+
+		static int CubeNum(int num)
+		{
+			int result = num * num * num;
+			return result;
+		}
+
+
+
+	}
+}
+
+
 
 
