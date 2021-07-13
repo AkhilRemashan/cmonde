@@ -221,6 +221,75 @@ public class ReturnMethod
 	}
 }
 
+public class IfElseCondition1
+{
+	public IfElseCondition1()
+	{
+
+		static void Main(String[] args)
+		{
+			bool isMale = true;
+			bool isTall = true;
+
+			if (isMale & isTall)
+			{
+				Console.WriteLine("You're a tall male");
+			}
+			else if (isMale && !isTall)
+			{
+				Console.WriteLine("You're a short male");
+			}
+			else if (!isMale & isTall)
+			{
+				Console.WriteLine("You're now a male, but you are tall");
+			}
+			else
+			{
+				Console.WriteLine("You're not male, and not tall");
+			}
+
+			Console.ReadLine();
+		}
+
+
+
+	}
+}
+
+public class IfElseCondition1
+{
+	public IfElseCondition1()
+	{
+
+		static void Main(String[] args)
+		{
+			bool isMale = true;
+			bool isTall = true;
+
+			if (isMale & isTall)
+			{
+				Console.WriteLine("You're a tall male");
+			}
+			else if (isMale && !isTall)
+			{
+				Console.WriteLine("You're a short male");
+			}
+			else if (!isMale & isTall)
+			{
+				Console.WriteLine("You're now a male, but you are tall");
+			}
+			else
+			{
+				Console.WriteLine("You're not male, and not tall");
+			}
+
+			Console.ReadLine();
+		}
+
+
+
+	}
+}
 
 
 
