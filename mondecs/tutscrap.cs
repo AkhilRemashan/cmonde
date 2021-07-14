@@ -106,7 +106,6 @@ public class SimpleCalculator
 
 		Console.ReadLine();
 
-
 	}
 }
 
@@ -158,7 +157,6 @@ public class Array
 
 		Console.ReadLine();
 
-
 	}
 }
 
@@ -192,7 +190,6 @@ public class MethodsCS
 			Console.WriteLine("Hello " + name + " you are " + age + "!!");
 		}
 
-
 	}
 }
 
@@ -216,7 +213,38 @@ public class ReturnMethod
 			return result;
 		}
 
+	}
+}
 
+public class IfElseCondition1
+{
+	public IfElseCondition1()
+	{
+
+		static void Main(String[] args)
+		{
+			bool isMale = true;
+			bool isTall = true;
+
+			if (isMale & isTall)
+			{
+				Console.WriteLine("You're a tall male");
+			}
+			else if (isMale && !isTall)
+			{
+				Console.WriteLine("You're a short male");
+			}
+			else if (!isMale & isTall)
+			{
+				Console.WriteLine("You're now a male, but you are tall");
+			}
+			else
+			{
+				Console.WriteLine("You're not male, and not tall");
+			}
+
+			Console.ReadLine();
+		}
 
 	}
 }
@@ -251,7 +279,50 @@ public class IfElseCondition1
 			Console.ReadLine();
 		}
 
+	}
+}
 
+public class IfElseCondition2
+{
+	public IfElseCondition2()
+	{
+
+		static void Main(String[] args)
+		{
+			Console.Write("Enter a number: ");
+			double num1 = Convert.ToDouble(Console.ReadLine());
+
+			Console.Write("Enter operator: ");
+			string opr = Console.ReadLine();
+
+			Console.Write("Enter a number: ");
+			double num2 = Convert.ToDouble(Console.ReadLine());
+
+			if (opr == "+")
+			{
+				Console.WriteLine(num1 + num2);
+			}
+			else if (opr == "-")
+			{
+				Console.WriteLine(num1 - num2);
+			}
+			else if (opr == "/")
+			{
+				Console.WriteLine(num1 / num2);
+			}
+			else if (opr == "*")
+			{
+				Console.WriteLine(num1 * num2);
+			}
+			else if (opr == "%")
+			{
+				Console.WriteLine(num1 % num2);
+			}
+			else
+			{
+				Console.WriteLine("Invalid operator");
+			}
+		}
 
 	}
 }
@@ -261,32 +332,48 @@ public class IfElseCondition1
 	public IfElseCondition1()
 	{
 
-		static void Main(String[] args)
+		static void Main(string[] args)
 		{
-			bool isMale = true;
-			bool isTall = true;
-
-			if (isMale & isTall)
-			{
-				Console.WriteLine("You're a tall male");
-			}
-			else if (isMale && !isTall)
-			{
-				Console.WriteLine("You're a short male");
-			}
-			else if (!isMale & isTall)
-			{
-				Console.WriteLine("You're now a male, but you are tall");
-			}
-			else
-			{
-				Console.WriteLine("You're not male, and not tall");
-			}
+			Console.WriteLine(GetDay(1));
 
 			Console.ReadLine();
 		}
 
+		static string GetDay(int dayNum)
+		{
+			string dayName;
 
+			switch (dayNum)
+			{
+				case 0:
+					dayName = "Sunday";
+					break;
+				case 1:
+					dayName = "Monday";
+					break;
+				case 2:
+					dayName = "Tuesday";
+					break;
+				case 3:
+					dayName = "Wednesday";
+					break;
+				case 4:
+					dayName = "Thursday";
+					break;
+				case 5:
+					dayName = "Friday";
+					break;
+				case 6:
+					dayName = "Saturday";
+					break;
+				default:
+					dayName = "invalid day number";
+					break;
+			}
+
+
+			return dayName;
+		}
 
 	}
 }
