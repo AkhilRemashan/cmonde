@@ -327,9 +327,9 @@ public class IfElseCondition2
 	}
 }
 
-public class IfElseCondition1
+public class SwitchStat
 {
-	public IfElseCondition1()
+	public SwitchStat()
 	{
 
 		static void Main(string[] args)
