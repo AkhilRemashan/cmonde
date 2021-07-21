@@ -415,6 +415,27 @@ public class DoWhileLoop
 				Console.ReadLine();
 			}
 
+		}
+}
+
+	public class QuizGame
+{
+		public QuizGame()
+		{
+
+			Console.WriteLine("Q: What's the tallest animal living in Land?");
+
+			string answer = "giraffe";
+			string guess;
+
+			do
+			{
+				Console.Write("Enter your guess: ");
+				guess = Console.ReadLine();
+
+			} while (guess != answer);
+
+			Console.WriteLine("You win!");
 
 		}
 }

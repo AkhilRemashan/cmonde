@@ -6,7 +6,7 @@ namespace mondecs
     {
       static void Main(string[] args)
         {
-
+            
         }
     }
    
