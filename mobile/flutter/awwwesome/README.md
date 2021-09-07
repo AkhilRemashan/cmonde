@@ -1,4 +1,4 @@
-# awwwsome
+# awwwesome
 
 A new Flutter project.
 
