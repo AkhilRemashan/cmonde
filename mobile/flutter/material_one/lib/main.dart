@@ -1,14 +1,11 @@
-import 'package:flutter/material.dart';
-
+import'package:flutter/material.dart';
 
 void main() {
-  runApp(MatOneFirst());
+  runApp(DuhShite());
 }
 
-class MatOneFirst extends StatelessWidget{
-
-  Widget build(BuildContext context) {
-    return MaterialApp(home: Text('Hello!'), );
-  }
-
+class DuhShite extends StatelessWidget {
+    Widget build(BuildContext context){
+      return MaterialApp(home: Text('Hello'),);
+    }
 }
